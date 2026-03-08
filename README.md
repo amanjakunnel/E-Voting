@@ -3,11 +3,11 @@
 Secure electronic voting web app built with **Java Servlets/JSP** (MVC pattern) for Object-Oriented Analysis & Design coursework. MVC backend (Servlets), JSP views, Store/DB layer and voter authentication implemented.
 
 ## ✨ Features
-Voter Authentication - Login/register (session-based)
-Election Management - Create elections, add candidates
-Secure Voting - One vote per voter, result encryption
-Live Results - Admin dashboard with tallies/charts
-Responsive JSP - Clean, accessible UI
+- Voter Authentication - Login/register (session-based)
+- Election Management - Create elections, add candidates
+- Secure Voting - One vote per voter, result encryption
+- Live Results - Admin dashboard with tallies/charts
+- Responsive JSP - Clean, accessible UI
 
 ## 🛠 Tech Stack
 | Backend       | Frontend    | Database/Tools |
