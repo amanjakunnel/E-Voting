@@ -1,0 +1,181 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+ <display-name>RegistrationMvc</display-name>
+ <welcome-file-list>
+ <welcome-file>home.jsp</welcome-file>
+ </welcome-file-list>
+ 
+ 
+ <servlet>
+ <description></description>
+ <display-name>voterServlet</display-name>
+ <servlet-name>voterServlet</servlet-name>
+ <servlet-class>com.mvc.controller.voterServlet</servlet-class>
+ </servlet>
+ 
+ 
+ <servlet-mapping>
+ <servlet-name>voterServlet</servlet-name>
+ <url-pattern>/voterServlet</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ <description></description>
+ <display-name>candidateServlet</display-name>
+ <servlet-name>candidateServlet</servlet-name>
+ <servlet-class>com.mvc.controller.candidateServlet</servlet-class>
+ </servlet>
+ 
+ 
+ <servlet-mapping>
+ <servlet-name>candidateServlet</servlet-name>
+ <url-pattern>/candidateServlet</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+ <description></description>
+ <display-name>candidateLoginServlet</display-name>
+ <servlet-name>candidateLoginServlet</servlet-name>
+ <servlet-class>com.mvc.controller.candidateLoginServlet</servlet-class>
+ </servlet>
+ 
+ 
+ <servlet-mapping>
+ <servlet-name>candidateLoginServlet</servlet-name>
+ <url-pattern>/candidateLoginServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <description></description>
+ <display-name>voterLoginServlet</display-name>
+ <servlet-name>voterLoginServlet</servlet-name>
+ <servlet-class>com.mvc.controller.voterLoginServlet</servlet-class>
+ </servlet>
+ 
+ 
+ <servlet-mapping>
+ <servlet-name>voterLoginServlet</servlet-name>
+ <url-pattern>/voterLoginServlet</url-pattern>
+ </servlet-mapping>
+
+
+ <servlet>
+ <description></description>
+ <display-name>adminLoginServlet</display-name>
+ <servlet-name>adminLoginServlet</servlet-name>
+ <servlet-class>com.mvc.controller.adminLoginServlet</servlet-class>
+ </servlet>
+ 
+ 
+ <servlet-mapping>
+ <servlet-name>adminLoginServlet</servlet-name>
+ <url-pattern>/adminLoginServlet</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+ <description></description>
+ <display-name>deleteCandidateServlet</display-name>
+ <servlet-name>deleteCandidateServlet</servlet-name>
+ <servlet-class>com.mvc.controller.deleteCandidateServlet</servlet-class>
+ </servlet>
+ 
+ 
+ <servlet-mapping>
+ <servlet-name>deleteCandidateServlet</servlet-name>
+ <url-pattern>/deleteCandidateServlet</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+ <description></description>
+ <display-name>deleteVoterServlet</display-name>
+ <servlet-name>deleteVoterServlet</servlet-name>
+ <servlet-class>com.mvc.controller.deleteVoterServlet</servlet-class>
+ </servlet>
+ 
+ 
+ <servlet-mapping>
+ <servlet-name>deleteVoterServlet</servlet-name>
+ <url-pattern>/deleteVoterServlet</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+ <description></description>
+ <display-name>updateCandidateServlet</display-name>
+ <servlet-name>updateCandidateServlet</servlet-name>
+ <servlet-class>com.mvc.controller.updateCandidateServlet</servlet-class>
+ </servlet>
+ 
+ 
+ <servlet-mapping>
+ <servlet-name>updateCandidateServlet</servlet-name>
+ <url-pattern>/updateCandidateServlet</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+ <description></description>
+ <display-name>updateVoterServlet</display-name>
+ <servlet-name>updateVoterServlet</servlet-name>
+ <servlet-class>com.mvc.controller.updateVoterServlet</servlet-class>
+ </servlet>
+ 
+ 
+ <servlet-mapping>
+ <servlet-name>updateVoterServlet</servlet-name>
+ <url-pattern>/updateVoterServlet</url-pattern>
+ </servlet-mapping>
+
+
+ <servlet>
+ <description></description>
+ <display-name>castVoteServlet</display-name>
+ <servlet-name>castVoteServlet</servlet-name>
+ <servlet-class>com.mvc.controller.castVoteServlet</servlet-class>
+ </servlet>
+ 
+ 
+ <servlet-mapping>
+ <servlet-name>castVoteServlet</servlet-name>
+ <url-pattern>/castVoteServlet</url-pattern>
+ </servlet-mapping>
+
+
+ <servlet>
+ <description></description>
+ <display-name>viewCandidateServlet</display-name>
+ <servlet-name>viewCandidateServlet</servlet-name>
+ <servlet-class>com.mvc.controller.viewCandidateServlet</servlet-class>
+ </servlet>
+ 
+ 
+ <servlet-mapping>
+ <servlet-name>viewCandidateServlet</servlet-name>
+ <url-pattern>/viewCandidateServlet</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+ <description></description>
+ <display-name>viewVoterServlet</display-name>
+ <servlet-name>viewVoterServlet</servlet-name>
+ <servlet-class>com.mvc.controller.viewVoterServlet</servlet-class>
+ </servlet>
+ 
+ 
+ <servlet-mapping>
+ <servlet-name>viewVoterServlet</servlet-name>
+ <url-pattern>/viewVoterServlet</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+ <description></description>
+ <display-name>newCastVoteServlet</display-name>
+ <servlet-name>newCastVoteServlet</servlet-name>
+ <servlet-class>com.mvc.controller.newCastVoteServlet</servlet-class>
+ </servlet>
+ 
+ 
+ <servlet-mapping>
+ <servlet-name>newCastVoteServlet</servlet-name>
+ <url-pattern>/newCastVoteServlet</url-pattern>
+ </servlet-mapping>
+
+</web-app>
